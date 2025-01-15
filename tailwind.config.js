@@ -6,7 +6,16 @@ export default {
     "node_modules/flowbite/**/*.js" 
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cormorant: ['Cormorant', 'serif'],
+        lato: ['Lato', 'sans-serif'],
+        rufina: ['Rufina', 'serif'],
+      },
+      colors: {
+        test: "#CC9A32", 
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin') 
